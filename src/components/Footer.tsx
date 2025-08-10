@@ -62,7 +62,7 @@ const Footer = () => {
         {/* Footer Bottom */}
         <div className="text-center space-y-2">
           <p className="text-champagne-200 font-script">
-            Built with love by Abhishek
+            Built with love by Abhishek & Aniroodh
           </p>
           <div className="flex items-center justify-center gap-2">
             <Sparkles className="text-champagne-400" size={14} />

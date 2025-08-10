@@ -124,9 +124,9 @@ const BrideGroom = () => {
             <div className="space-y-4">
               <h3 className="text-3xl sm:text-4xl font-serif text-burgundy-800 font-medium">{groomData.name}</h3>
               <p className="text-sage-600 font-medium text-lg tracking-wide">{groomData.role}</p>
-              <p className="text-sage-600 font-medium text-sm uppercase tracking-widest">{groomData.profession}</p>
+              <p className="text-sage-800 font-medium text-sm uppercase tracking-widest">{groomData.profession}</p>
               <div className="w-16 h-px bg-sage-400 mx-auto my-6"></div>
-              <p className="text-sage-700 leading-relaxed max-w-md mx-auto text-base">{groomData.bio}</p>
+              <p className="text-sage-800 leading-relaxed max-w-md mx-auto text-base">{groomData.bio}</p>
               <div className="pt-4">
                 <p className="text-sage-600 italic font-script text-lg">"{groomData.favorite}"</p>
               </div>

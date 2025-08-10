@@ -142,7 +142,7 @@ const WishesSection = () => {
                     onChange={(e) => setNewWish({ ...newWish, message: e.target.value })}
                     className="w-full px-6 py-4 rounded-2xl border-2 border-champagne-200 focus:border-sage-400 focus:outline-none transition-all duration-300 resize-none bg-white/80 backdrop-blur-sm text-lg leading-relaxed"
                     rows={5}
-                    placeholder="Share your heartfelt wishes, blessings, or favorite memory with Isabella & Alexander..."
+                    placeholder="Share your heartfelt wishes, blessings, or favorite memory with Aswathy & Akhil ..."
                     required
                   />
                 </div>

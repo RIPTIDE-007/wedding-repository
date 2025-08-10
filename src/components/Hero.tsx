@@ -69,8 +69,8 @@ const Hero = () => {
           </div>
           
 <p className="text-lg sm:text-xl md:text-2xl font-script font-medium italic text-champagne-100 mb-12 leading-relaxed">
-  सर्वेषु लोकेषु न मे प्रियं तव समम्।<br />
-  त्वमेव मे प्रियतमः जीवनसाथी च।
+    മംഗല്യം തന്തുനാനേന മമജീവനഹേതുനാ  <br />
+    കണ്ഠേ ബധ്നാമി സുഭഗേ ത്വമജീവ ശതം സമാ:
 </p>
           
           <div className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-serif tracking-wide mb-2">
