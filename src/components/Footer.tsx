@@ -15,30 +15,64 @@ const Footer = () => {
       <div className="container mx-auto px-4 sm:px-6 relative z-10">
         {/* Contact Info */}
         <div className="text-center mb-8">
-          <div className="flex flex-col sm:flex-row justify-center gap-4 sm:gap-6 mb-6">
-            <div className="flex items-center gap-3 group justify-center">
-              <div className="w-10 h-10 bg-champagne-600/20 rounded-full flex items-center justify-center group-hover:bg-champagne-600/30 transition-colors">
-                <Mail className="text-champagne-300" size={18} />
+          {/* Bride's Side */}
+          <div className="mb-6">
+            <p className="text-champagne-200 text-sm font-medium mb-3 uppercase tracking-wider">Bride's Side</p>
+            <div className="flex flex-col sm:flex-row justify-center gap-4 sm:gap-6">
+              <div className="flex items-center gap-3 group justify-center">
+                <div className="w-10 h-10 bg-champagne-600/20 rounded-full flex items-center justify-center group-hover:bg-champagne-600/30 transition-colors">
+                  <Mail className="text-champagne-300" size={18} />
+                </div>
+                <a href="mailto:sinuam97@gmail.com" className="hover:text-champagne-300 transition-colors">
+                  sinuam97@gmail.com
+                </a>
               </div>
-              <a href="mailto:sinuam97@gmail.com" className="hover:text-champagne-300 transition-colors">
-                sinuam97@gmail.com
-              </a>
+              <div className="flex items-center gap-3 group justify-center">
+                <div className="w-10 h-10 bg-sage-600/20 rounded-full flex items-center justify-center group-hover:bg-sage-600/30 transition-colors">
+                  <Phone className="text-sage-300" size={18} />
+                </div>
+                <a href="tel:+919061117351" className="hover:text-sage-300 transition-colors">
+                  +91 9061117351
+                </a>
+              </div>
+              <div className="flex items-center gap-3 group justify-center">
+                <div className="w-10 h-10 bg-burgundy-600/20 rounded-full flex items-center justify-center group-hover:bg-burgundy-600/30 transition-colors">
+                  <Phone className="text-burgundy-300" size={18} />
+                </div>
+                <a href="tel:+918547604466" className="hover:text-burgundy-300 transition-colors">
+                  +91 9495197020
+                </a>
+              </div>
             </div>
-            <div className="flex items-center gap-3 group justify-center">
-              <div className="w-10 h-10 bg-sage-600/20 rounded-full flex items-center justify-center group-hover:bg-sage-600/30 transition-colors">
-                <Phone className="text-sage-300" size={18} />
+          </div>
+          
+          {/* Divider between sections */}
+          <div className="flex items-center justify-center my-6">
+            <div className="w-16 h-px bg-gradient-to-r from-transparent via-champagne-400/50 to-transparent"></div>
+            <Heart className="mx-3 text-champagne-300/50 fill-champagne-300/50" size={16} />
+            <div className="w-16 h-px bg-gradient-to-r from-transparent via-champagne-400/50 to-transparent"></div>
+          </div>
+          
+          {/* Groom's Side */}
+          <div>
+            <p className="text-champagne-200 text-sm font-medium mb-3 uppercase tracking-wider">Groom's Side</p>
+            <div className="flex flex-col sm:flex-row justify-center gap-4 sm:gap-6">
+              <div className="flex items-center gap-3 group justify-center">
+                <div className="w-10 h-10 bg-sage-600/20 rounded-full flex items-center justify-center group-hover:bg-sage-600/30 transition-colors">
+                  <Phone className="text-sage-300" size={18} />
+                </div>
+                <a href="tel:+919662662361" className="hover:text-sage-300 transition-colors">
+                  +91 96626 62361
+                </a>
               </div>
-              <a href="tel:+919061117351" className="hover:text-sage-300 transition-colors">
-                +91 9061117351
-              </a>
-            </div>
-            <div className="flex items-center gap-3 group justify-center">
-              <div className="w-10 h-10 bg-burgundy-600/20 rounded-full flex items-center justify-center group-hover:bg-burgundy-600/30 transition-colors">
-                <Phone className="text-burgundy-300" size={18} />
+              <div className="flex items-center gap-3 group justify-center">
+                <div className="w-10 h-10 bg-burgundy-600/20 rounded-full flex items-center justify-center group-hover:bg-burgundy-600/30 transition-colors">
+                  <Phone className="text-burgundy-300" size={18} />
+                </div>
+                <a href="tel:+918086708373" className="hover:text-burgundy-300 transition-colors">
+                  +91 80867 08373
+                </a>
               </div>
-              <a href="tel:+918547604466" className="hover:text-burgundy-300 transition-colors">
-                +91 9495197020
-              </a>
             </div>
           </div>
         </div>
